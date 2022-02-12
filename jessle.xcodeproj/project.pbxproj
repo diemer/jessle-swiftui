@@ -23,6 +23,7 @@
 		0CBA724E27B766D800DCB698 /* LetterGuess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA724D27B766D800DCB698 /* LetterGuess.swift */; };
 		0CBA725127B7682100DCB698 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA725027B7682100DCB698 /* Color+Extensions.swift */; };
 		0CBA725427B76FFA00DCB698 /* LetterRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA725327B76FFA00DCB698 /* LetterRowViewModel.swift */; };
+		0CBA725627B7762A00DCB698 /* LetterRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA725527B7762A00DCB698 /* LetterRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		0CBA724D27B766D800DCB698 /* LetterGuess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterGuess.swift; sourceTree = "<group>"; };
 		0CBA725027B7682100DCB698 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		0CBA725327B76FFA00DCB698 /* LetterRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterRowViewModel.swift; sourceTree = "<group>"; };
+		0CBA725527B7762A00DCB698 /* LetterRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				0CBA725327B76FFA00DCB698 /* LetterRowViewModel.swift */,
+				0CBA725527B7762A00DCB698 /* LetterRowView.swift */,
 			);
 			path = LetterRow;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 				0CBA724427B7615000DCB698 /* LetterSquareView.swift in Sources */,
 				0CBA720F27B75F8D00DCB698 /* jessleApp.swift in Sources */,
 				0CBA724627B761B700DCB698 /* Constants.swift in Sources */,
+				0CBA725627B7762A00DCB698 /* LetterRowView.swift in Sources */,
 				0CBA724B27B7661200DCB698 /* LetterSquareViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
