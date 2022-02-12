@@ -12,7 +12,7 @@ class LetterSquareViewModel: ObservableObject {
   @Published var squareContent: String?
   @Published var squareType: LetterGuess = .unguessed
   
-  convenience init(squareType: LetterGuess, squareContent: String) {
+  convenience init(squareType: LetterGuess, squareContent: String?) {
     self.init()
     self.squareType = squareType
     self.squareContent = squareContent
