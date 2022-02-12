@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+class GameBoardViewModel: ObservableObject {
+  @Published var rowData: RowData = []
+}
