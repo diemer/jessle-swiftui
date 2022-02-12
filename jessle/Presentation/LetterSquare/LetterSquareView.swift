@@ -11,31 +11,35 @@ struct LetterSquareView: View {
   @StateObject var viewModel: LetterSquareViewModel = LetterSquareViewModel()
   
   var body: some View {
-    GeometryReader { g in
       ZStack {
         Rectangle()
           .fill(viewModel.squareColor)
-        Rectangle()
-          .stroke(lineWidth: viewModel.squareStroke)
-          .foregroundColor(viewModel.squareStrokeColor)
-        if let content = viewModel.squareContent {
-          let geoH = g.size.height
-          let geoW = g.size.width
-          let factor = Constants.Typography.scalingFactor
-          let letterSize = geoH > geoW ? geoW * factor : geoH * factor
-          Text(content)
-            .foregroundColor(viewModel.squareTextColor)
-            .font(.system(size: letterSize).bold())
-            .position(x: geoW / 2, y: geoH / 2)
-        }
-      }
+          .overlay(
+            GeometryReader { g in
+              let geoH = g.size.height
+              let geoW = g.size.width
+              
+              Rectangle()
+                .strokeBorder(lineWidth: geoW / 20)
+                .foregroundColor(viewModel.squareStrokeColor)
+
+              if let content = viewModel.squareContent {
+                let factor = Constants.Typography.scalingFactor
+                let letterSize = geoH > geoW ? geoW * factor : geoH * factor
+                Text(content)
+                  .foregroundColor(viewModel.squareTextColor)
+                  .font(.system(size: letterSize).bold())
+                  .position(x: geoW / 2, y: geoH / 2)
+              }
+            }
+          )
     }
     
   }
 }
 
 extension LetterSquareView {
-  init(squareType: LetterGuess, squareContent: String) {
+  init(squareType: LetterGuess, squareContent: String?) {
     self.init(viewModel: LetterSquareViewModel(squareType: squareType, squareContent: squareContent))
   }
 }
