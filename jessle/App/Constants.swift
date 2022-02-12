@@ -23,6 +23,6 @@ enum Constants {
   }
   
   enum Typography {
-    public static let scalingFactor: CGFloat = 1.0
+    public static let scalingFactor: CGFloat = 0.8
   }
 }
