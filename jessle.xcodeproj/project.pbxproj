@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0CBA720F27B75F8D00DCB698 /* jessleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA720E27B75F8D00DCB698 /* jessleApp.swift */; };
-		0CBA721127B75F8E00DCB698 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA721027B75F8E00DCB698 /* ContentView.swift */; };
 		0CBA721327B75F8E00DCB698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CBA721227B75F8E00DCB698 /* Assets.xcassets */; };
 		0CBA721627B75F8E00DCB698 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CBA721527B75F8E00DCB698 /* Preview Assets.xcassets */; };
 		0CBA721827B75F8E00DCB698 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA721727B75F8E00DCB698 /* Persistence.swift */; };
@@ -16,6 +15,13 @@
 		0CBA722527B75F8E00DCB698 /* jessleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA722427B75F8E00DCB698 /* jessleTests.swift */; };
 		0CBA722F27B75F8E00DCB698 /* jessleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA722E27B75F8E00DCB698 /* jessleUITests.swift */; };
 		0CBA723127B75F8E00DCB698 /* jessleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA723027B75F8E00DCB698 /* jessleUITestsLaunchTests.swift */; };
+		0CBA724227B760D800DCB698 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA724127B760D800DCB698 /* MainView.swift */; };
+		0CBA724427B7615000DCB698 /* LetterSquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA724327B7615000DCB698 /* LetterSquareView.swift */; };
+		0CBA724627B761B700DCB698 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA724527B761B700DCB698 /* Constants.swift */; };
+		0CBA724827B7622300DCB698 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CBA724727B7622300DCB698 /* Colors.xcassets */; };
+		0CBA724B27B7661200DCB698 /* LetterSquareViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA724A27B7661200DCB698 /* LetterSquareViewModel.swift */; };
+		0CBA724E27B766D800DCB698 /* LetterGuess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA724D27B766D800DCB698 /* LetterGuess.swift */; };
+		0CBA725127B7682100DCB698 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA725027B7682100DCB698 /* Color+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,6 @@
 /* Begin PBXFileReference section */
 		0CBA720B27B75F8D00DCB698 /* jessle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jessle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CBA720E27B75F8D00DCB698 /* jessleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jessleApp.swift; sourceTree = "<group>"; };
-		0CBA721027B75F8E00DCB698 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0CBA721227B75F8E00DCB698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CBA721527B75F8E00DCB698 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0CBA721727B75F8E00DCB698 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +53,13 @@
 		0CBA722A27B75F8E00DCB698 /* jessleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jessleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CBA722E27B75F8E00DCB698 /* jessleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jessleUITests.swift; sourceTree = "<group>"; };
 		0CBA723027B75F8E00DCB698 /* jessleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jessleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0CBA724127B760D800DCB698 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		0CBA724327B7615000DCB698 /* LetterSquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterSquareView.swift; sourceTree = "<group>"; };
+		0CBA724527B761B700DCB698 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0CBA724727B7622300DCB698 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		0CBA724A27B7661200DCB698 /* LetterSquareViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterSquareViewModel.swift; sourceTree = "<group>"; };
+		0CBA724D27B766D800DCB698 /* LetterGuess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterGuess.swift; sourceTree = "<group>"; };
+		0CBA725027B7682100DCB698 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +110,10 @@
 		0CBA720D27B75F8D00DCB698 /* jessle */ = {
 			isa = PBXGroup;
 			children = (
-				0CBA720E27B75F8D00DCB698 /* jessleApp.swift */,
-				0CBA721027B75F8E00DCB698 /* ContentView.swift */,
-				0CBA721227B75F8E00DCB698 /* Assets.xcassets */,
-				0CBA721727B75F8E00DCB698 /* Persistence.swift */,
-				0CBA721927B75F8E00DCB698 /* jessle.xcdatamodeld */,
-				0CBA721427B75F8E00DCB698 /* Preview Content */,
+				0CBA724027B7602700DCB698 /* Domain */,
+				0CBA723F27B7601A00DCB698 /* Data */,
+				0CBA723E27B7600C00DCB698 /* Presentation */,
+				0CBA723D27B75FD400DCB698 /* App */,
 			);
 			path = jessle;
 			sourceTree = "<group>";
@@ -131,6 +141,70 @@
 				0CBA723027B75F8E00DCB698 /* jessleUITestsLaunchTests.swift */,
 			);
 			path = jessleUITests;
+			sourceTree = "<group>";
+		};
+		0CBA723D27B75FD400DCB698 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0CBA720E27B75F8D00DCB698 /* jessleApp.swift */,
+				0CBA721227B75F8E00DCB698 /* Assets.xcassets */,
+				0CBA721727B75F8E00DCB698 /* Persistence.swift */,
+				0CBA721927B75F8E00DCB698 /* jessle.xcdatamodeld */,
+				0CBA721427B75F8E00DCB698 /* Preview Content */,
+				0CBA724527B761B700DCB698 /* Constants.swift */,
+				0CBA724727B7622300DCB698 /* Colors.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0CBA723E27B7600C00DCB698 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				0CBA724F27B7680D00DCB698 /* Extensions */,
+				0CBA724C27B766C500DCB698 /* Enums */,
+				0CBA724127B760D800DCB698 /* MainView.swift */,
+				0CBA724927B765E300DCB698 /* LetterSquare */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		0CBA723F27B7601A00DCB698 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0CBA724027B7602700DCB698 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		0CBA724927B765E300DCB698 /* LetterSquare */ = {
+			isa = PBXGroup;
+			children = (
+				0CBA724327B7615000DCB698 /* LetterSquareView.swift */,
+				0CBA724A27B7661200DCB698 /* LetterSquareViewModel.swift */,
+			);
+			path = LetterSquare;
+			sourceTree = "<group>";
+		};
+		0CBA724C27B766C500DCB698 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				0CBA724D27B766D800DCB698 /* LetterGuess.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		0CBA724F27B7680D00DCB698 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0CBA725027B7682100DCB698 /* Color+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CBA724827B7622300DCB698 /* Colors.xcassets in Resources */,
 				0CBA721627B75F8E00DCB698 /* Preview Assets.xcassets in Resources */,
 				0CBA721327B75F8E00DCB698 /* Assets.xcassets in Resources */,
 			);
@@ -265,8 +340,13 @@
 			files = (
 				0CBA721827B75F8E00DCB698 /* Persistence.swift in Sources */,
 				0CBA721B27B75F8E00DCB698 /* jessle.xcdatamodeld in Sources */,
-				0CBA721127B75F8E00DCB698 /* ContentView.swift in Sources */,
+				0CBA725127B7682100DCB698 /* Color+Extensions.swift in Sources */,
+				0CBA724227B760D800DCB698 /* MainView.swift in Sources */,
+				0CBA724E27B766D800DCB698 /* LetterGuess.swift in Sources */,
+				0CBA724427B7615000DCB698 /* LetterSquareView.swift in Sources */,
 				0CBA720F27B75F8D00DCB698 /* jessleApp.swift in Sources */,
+				0CBA724627B761B700DCB698 /* Constants.swift in Sources */,
+				0CBA724B27B7661200DCB698 /* LetterSquareViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,7 +506,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"jessle/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"jessle/App/Preview Content\"";
 				DEVELOPMENT_TEAM = 74949Q8UPU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -455,7 +535,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"jessle/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"jessle/App/Preview Content\"";
 				DEVELOPMENT_TEAM = 74949Q8UPU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
