@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 enum Constants {
   enum Colors: String {
@@ -15,5 +16,13 @@ enum Constants {
     case backgroundColor
     case green
     case textColor
+  }
+  
+  enum Shape {
+    public static let LineWidth: CGFloat = 10.0
+  }
+  
+  enum Typography {
+    public static let scalingFactor: CGFloat = 1.0
   }
 }
