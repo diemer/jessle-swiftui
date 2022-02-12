@@ -22,6 +22,7 @@
 		0CBA724B27B7661200DCB698 /* LetterSquareViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA724A27B7661200DCB698 /* LetterSquareViewModel.swift */; };
 		0CBA724E27B766D800DCB698 /* LetterGuess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA724D27B766D800DCB698 /* LetterGuess.swift */; };
 		0CBA725127B7682100DCB698 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA725027B7682100DCB698 /* Color+Extensions.swift */; };
+		0CBA725427B76FFA00DCB698 /* LetterRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA725327B76FFA00DCB698 /* LetterRowViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		0CBA724A27B7661200DCB698 /* LetterSquareViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterSquareViewModel.swift; sourceTree = "<group>"; };
 		0CBA724D27B766D800DCB698 /* LetterGuess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterGuess.swift; sourceTree = "<group>"; };
 		0CBA725027B7682100DCB698 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		0CBA725327B76FFA00DCB698 /* LetterRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterRowViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 		0CBA723E27B7600C00DCB698 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				0CBA725227B76FDA00DCB698 /* LetterRow */,
 				0CBA724F27B7680D00DCB698 /* Extensions */,
 				0CBA724C27B766C500DCB698 /* Enums */,
 				0CBA724127B760D800DCB698 /* MainView.swift */,
@@ -205,6 +208,14 @@
 				0CBA725027B7682100DCB698 /* Color+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0CBA725227B76FDA00DCB698 /* LetterRow */ = {
+			isa = PBXGroup;
+			children = (
+				0CBA725327B76FFA00DCB698 /* LetterRowViewModel.swift */,
+			);
+			path = LetterRow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,6 +354,7 @@
 				0CBA725127B7682100DCB698 /* Color+Extensions.swift in Sources */,
 				0CBA724227B760D800DCB698 /* MainView.swift in Sources */,
 				0CBA724E27B766D800DCB698 /* LetterGuess.swift in Sources */,
+				0CBA725427B76FFA00DCB698 /* LetterRowViewModel.swift in Sources */,
 				0CBA724427B7615000DCB698 /* LetterSquareView.swift in Sources */,
 				0CBA720F27B75F8D00DCB698 /* jessleApp.swift in Sources */,
 				0CBA724627B761B700DCB698 /* Constants.swift in Sources */,
