@@ -12,6 +12,8 @@ enum Constants {
     case yellow
     case gray
     case lightGray
-    case white
+    case backgroundColor
+    case green
+    case textColor
   }
 }
