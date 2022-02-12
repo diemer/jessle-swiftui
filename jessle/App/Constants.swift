@@ -20,6 +20,8 @@ enum Constants {
   
   enum Shape {
     public static let LineWidth: CGFloat = 10.0
+    public static let DefaultSquareSize: CGFloat = 50.0
+    public static let DefaultSquareSpacing: CGFloat = 10.0
   }
   
   enum Typography {
