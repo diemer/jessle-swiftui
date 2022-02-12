@@ -9,6 +9,11 @@ import Foundation
 import UIKit
 
 enum Constants {
+  enum Game {
+    public static let NumberOfSquares: CGFloat = 5
+    public static let NumberOfRows: CGFloat = 6
+  }
+  
   enum Colors: String {
     case yellow
     case gray
