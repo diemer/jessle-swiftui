@@ -25,6 +25,10 @@ struct KeyboardKeyView: View {
 }
   
 extension KeyboardKeyView {
+  init(content: String? = nil, type: KeyboardKeyView.KeyType, letterType: LetterGuess = .unguessed, onPress: @escaping KeyOnPress) {
+    viewModel = KeyboardKeyViewModel(content: content, type: type, letterType: letterType, onPress: onPress)
+  }
+  
   
   enum KeyType {
     case Letter
