@@ -28,6 +28,8 @@
 		0CBA725B27B7855800DCB698 /* GameBoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA725A27B7855800DCB698 /* GameBoardViewModel.swift */; };
 		0CBA725E27B9539100DCB698 /* KeyboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA725D27B9539100DCB698 /* KeyboardViewModel.swift */; };
 		0CBA726027B9539A00DCB698 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA725F27B9539A00DCB698 /* KeyboardView.swift */; };
+		0CBA726227B953A700DCB698 /* KeyboardKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA726127B953A700DCB698 /* KeyboardKeyView.swift */; };
+		0CBA726427B953B400DCB698 /* KeyboardKeyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBA726327B953B400DCB698 /* KeyboardKeyViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +74,8 @@
 		0CBA725A27B7855800DCB698 /* GameBoardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardViewModel.swift; sourceTree = "<group>"; };
 		0CBA725D27B9539100DCB698 /* KeyboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewModel.swift; sourceTree = "<group>"; };
 		0CBA725F27B9539A00DCB698 /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
+		0CBA726127B953A700DCB698 /* KeyboardKeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardKeyView.swift; sourceTree = "<group>"; };
+		0CBA726327B953B400DCB698 /* KeyboardKeyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardKeyViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +249,8 @@
 			children = (
 				0CBA725D27B9539100DCB698 /* KeyboardViewModel.swift */,
 				0CBA725F27B9539A00DCB698 /* KeyboardView.swift */,
+				0CBA726127B953A700DCB698 /* KeyboardKeyView.swift */,
+				0CBA726327B953B400DCB698 /* KeyboardKeyViewModel.swift */,
 			);
 			path = Keyboard;
 			sourceTree = "<group>";
@@ -385,6 +391,7 @@
 				0CBA725127B7682100DCB698 /* Color+Extensions.swift in Sources */,
 				0CBA726027B9539A00DCB698 /* KeyboardView.swift in Sources */,
 				0CBA724227B760D800DCB698 /* MainView.swift in Sources */,
+				0CBA726227B953A700DCB698 /* KeyboardKeyView.swift in Sources */,
 				0CBA724E27B766D800DCB698 /* LetterGuess.swift in Sources */,
 				0CBA725E27B9539100DCB698 /* KeyboardViewModel.swift in Sources */,
 				0CBA725427B76FFA00DCB698 /* LetterRowViewModel.swift in Sources */,
@@ -394,6 +401,7 @@
 				0CBA725627B7762A00DCB698 /* LetterRowView.swift in Sources */,
 				0CBA724B27B7661200DCB698 /* LetterSquareViewModel.swift in Sources */,
 				0CBA725B27B7855800DCB698 /* GameBoardViewModel.swift in Sources */,
+				0CBA726427B953B400DCB698 /* KeyboardKeyViewModel.swift in Sources */,
 				0CBA725927B7854200DCB698 /* GameBoardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
