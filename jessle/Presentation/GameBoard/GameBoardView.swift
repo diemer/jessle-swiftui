@@ -11,6 +11,7 @@ struct GameBoardView: View {
   var viewModel: GameBoardViewModel = GameBoardViewModel()
   
   var body: some View {
+    // TODO: Move to ViewModel
     let rowData = Array(viewModel.rowData.enumerated())
     GeometryReader { g in
       let geoW = g.size.width
