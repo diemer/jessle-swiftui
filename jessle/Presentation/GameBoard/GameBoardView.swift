@@ -14,9 +14,9 @@ struct GameBoardView: View {
     let rowData = Array(viewModel.rowData.enumerated())
     GeometryReader { g in
       let geoW = g.size.width
-      let squareSize = geoW / Constants.Game.NumberOfSquares - (Constants.Shape.DefaultSquareSpacing * Constants.Game.NumberOfSquares - 1)
       ForEach(rowData, id: \.0) { row in
         LetterRowView(squaresData: row.element, squareSize: squareSize)
+      let squareSize = geoW / Constants.Game.NumberOfSquares - (Constants.Shape.DefaultSquareSpacing)
       }
     }
   }
