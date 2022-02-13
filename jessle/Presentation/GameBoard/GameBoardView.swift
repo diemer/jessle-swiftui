@@ -18,6 +18,7 @@ struct GameBoardView: View {
         LetterRowView(squaresData: row.element, squareSize: squareSize)
       let squareSize = geoW / Constants.Game.NumberOfSquares - (Constants.Shape.DefaultSquareSpacing)
       }
+      .padding(.horizontal, Constants.Shape.DefaultSquareSpacing)
     }
   }
 }
