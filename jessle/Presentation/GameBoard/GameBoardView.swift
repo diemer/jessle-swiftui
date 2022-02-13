@@ -41,19 +41,22 @@ struct GameBoardView_Previews: PreviewProvider {
       (squareType: LetterGuess.unguessed, squareContent: "L"),
       (squareType: LetterGuess.unguessed, squareContent: "S")
     ]
-    let thirdRow = [
-      (squareType: LetterGuess.unguessed, squareContent: ""),
-      (squareType: LetterGuess.unguessed, squareContent: nil),
-      (squareType: LetterGuess.unguessed, squareContent: nil),
-      (squareType: LetterGuess.unguessed, squareContent: nil),
-      (squareType: LetterGuess.unguessed, squareContent: nil)
+    let emptyRow = [
+        (squareType: LetterGuess.unguessed, squareContent: ""),
+        (squareType: LetterGuess.unguessed, squareContent: nil),
+        (squareType: LetterGuess.unguessed, squareContent: nil),
+        (squareType: LetterGuess.unguessed, squareContent: nil),
+        (squareType: LetterGuess.unguessed, squareContent: nil)
     ]
 
     let vm = GameBoardViewModel()
     vm.rowData = [
       firstRow,
       secondRow,
-      thirdRow
+      emptyRow,
+      emptyRow,
+      emptyRow,
+      emptyRow
     ]
     return vm
   }
