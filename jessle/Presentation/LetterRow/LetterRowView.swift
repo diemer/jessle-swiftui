@@ -22,7 +22,7 @@ struct LetterRowView: View {
 //        Text("\(item)")
       }
     }
-    .padding(.horizontal)
+//    .padding(.horizontal)
     
   }
 }
