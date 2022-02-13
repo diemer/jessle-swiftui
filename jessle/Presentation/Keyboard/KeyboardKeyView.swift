@@ -19,6 +19,7 @@ struct KeyboardKeyView: View {
           .bold()
       }
     }
+    .buttonStyle(KeyStyle(fillColor: viewModel.keyBackgroundColor, textColor: viewModel.keyTextColor))
     .disabled(viewModel.disabled)
   }
 
@@ -29,6 +30,17 @@ extension KeyboardKeyView {
     viewModel = KeyboardKeyViewModel(content: content, type: type, letterType: letterType, onPress: onPress)
   }
   
+  struct KeyStyle: ButtonStyle {
+    var fillColor: Color
+    var textColor: Color
+    func makeBody(configuration: Configuration) -> some View {
+            configuration.label
+                .padding()
+                .background(configuration.isPressed ? Color(Constants.Colors.gray) : fillColor)
+                .foregroundColor(textColor)
+                .clipShape(RoundedRectangle(cornerRadius: Constants.Shape.CornerRadius))
+        }
+  }
   
   enum KeyType {
     case Letter
