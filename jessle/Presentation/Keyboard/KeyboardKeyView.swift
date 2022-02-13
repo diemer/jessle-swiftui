@@ -39,7 +39,27 @@ extension KeyboardKeyView {
 
 
 struct KeyboardKeyView_Previews: PreviewProvider {
-    static var previews: some View {
-        KeyboardKeyView()
-    }
+  static var viewModel: KeyboardKeyViewModel {
+    let vm = KeyboardKeyViewModel()
+    
+    return vm
+  }
+  static var previews: some View {
+    let fixedSize = PreviewLayout.fixed(width: 50, height: 100)
+    KeyboardKeyView(content: "W", type: .Letter, letterType: .unguessed, onPress: {})
+      .previewLayout(fixedSize)
+
+    KeyboardKeyView(content: "W", type: .Letter, letterType: .wrong, onPress: {})
+      .previewLayout(fixedSize)
+
+    KeyboardKeyView(content: "W", type: .Letter, letterType: .inWord, onPress: {})
+      .previewLayout(fixedSize)
+
+    KeyboardKeyView(content: "W", type: .Letter, letterType: .correct, onPress: {})
+      .previewLayout(fixedSize)
+    KeyboardKeyView(type: .Backspace, onPress: {})
+      .previewLayout(fixedSize)
+    KeyboardKeyView(type: .Enter, onPress: {})
+      .previewLayout(.fixed(width: 200, height: 100))
+  }
 }
