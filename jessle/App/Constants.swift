@@ -30,6 +30,10 @@ enum Constants {
     public static let CornerRadius: CGFloat = 10.0
   }
   
+  enum Icons {
+    public static let Backspace = "delete.left"
+  }
+  
   enum Typography {
     public static let scalingFactor: CGFloat = 0.8
   }
